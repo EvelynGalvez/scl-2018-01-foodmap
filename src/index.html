@@ -19,10 +19,15 @@
 
   <!--pantalla que contendrá mapa-->
   <div id="foodmap" class="container-fluid">
-    <h3>My Google Maps Demo</h3>
-    <button id="posicion">Mostrar ubicación</button>
-          <!--The div element for the map -->
+    <h3>FoodMap</h3>
     <div id="map"></div>
+    <nav class="navbar navbar-light bg-light">
+      <button id="posicion" type="button" class="btn btn-success">Mi ubicación</button>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
   
   </div>
   
