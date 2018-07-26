@@ -31,3 +31,8 @@ h1 {
   display: block;
 }
 
+#map {
+  height: 90vh; 
+  width: 100%;  /* The width is the width of the web page */
+ }
+

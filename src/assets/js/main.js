@@ -1,4 +1,4 @@
-function splash() {
+/* function splash() {
   document.getElementById('splash').style.display = 'block';
   document.getElementById('foodmap').style.display = 'none';
 }
@@ -10,5 +10,6 @@ function footmap() {
 
 
 window.onload = function() {
-  setTimeout(footmap, 4000);
+  setTimeout(footmap, 2000);
 };
+*/
